@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    render html: 'hey world, we got heroku deployment error!'
+    render html: 'goodbye, world!'
   end
 end
